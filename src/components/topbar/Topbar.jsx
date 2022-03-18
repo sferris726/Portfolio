@@ -4,10 +4,10 @@ import {Person, Mail} from "@mui/icons-material"
 export default function Topbar() 
 {
   return (
-    <div className="topbar">
+    <div className="topbar active">
       <div className="wrapper">
         <div className="left">
-          <a href="#intro">intro</a>
+          <a href="#intro" className="logo">intro</a>
           <div className="itemContainer">
             <Person className="icon" />
             <span>413 652 9180</span>  
@@ -17,9 +17,12 @@ export default function Topbar()
             <span>scott.ferris93@gmail.com</span>  
           </div>  
         </div>
-        <h1>Hello</h1>
         <div className="right">
-          right side
+         <div className="menu">
+           <span className="line1"></span>
+           <span className="line2"></span>
+           <span className="line3"></span>
+         </div>
         </div>
       </div>
     </div>
