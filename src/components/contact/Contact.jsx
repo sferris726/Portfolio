@@ -23,8 +23,8 @@ export default function Contact()
     {
       console.log(error.text);
     });
-    setMessage(true);
     e.target.reset()
+    setMessage(true);
   }
 
   return (

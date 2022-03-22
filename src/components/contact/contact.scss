@@ -5,7 +5,7 @@
 
   .left
   {
-    flex: 1;
+    flex: 0;
   }
 
   .right
@@ -32,14 +32,14 @@
 
       input
       {
-        width: 300px;
-        height: 30px;
+        width: 500px;
+        height: 40px;
         font-size: 20px;
       }
 
       textarea
       {
-        width: 300px;
+        width: 500px;
         height: 200px;
         font-size: 25px;
       }
