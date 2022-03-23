@@ -19,13 +19,16 @@ export default function Works()
           <div className="item">
             <div className="left">
               <div className="leftContainer">
-                <div className="imgContainer"></div>
+                <h2>Title</h2>
+                <p>Description</p>
+                <button>Code</button>
               </div>
-              <h2>Title</h2>
-              <p>Description</p>
-              <span>Projects</span>
             </div>
-            <div className="right"></div>
+            <div className="right">
+            <div className="videoContainer">
+                <iframe width="550" height="330" src="https://www.youtube.com/embed/K6L-IBG9a1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
           </div>
         </div>
       </div>
