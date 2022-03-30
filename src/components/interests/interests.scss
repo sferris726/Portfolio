@@ -10,19 +10,25 @@
 
   .container
   {
-    width: 70%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 
+    h1
+    {
+      margin-bottom: 800px;
+    }
+
     .item
     {
       width: 400px;
-      height: 400px;
+      height: 600px;
+      overflow: hidden;
       border-radius: 20px;
-      border: 1px solid lightgray;
-      margin: 10px 20px;
+      border: 1px solid black;
+      margin: 10px 60px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -30,15 +36,102 @@
       background-color: white;
       position: relative;
       transition: all 0.5s ease;
+      box-shadow: 0px 0px 15px -5px;
 
-      h2
+      @include mobile
       {
-        font-size: 20px;
+        width: 175px;
+        height: 220px;
+        margin: 20px 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      &:hover
+      {
+        transform: scale(1.03);
+        transition: all 1s ease;
+        box-shadow: 0px 0px 15px -5px;
+      }
+
+      .web-img
+      {
+        height: 300px;
+        margin-top: -245px;
+        margin-bottom: 15px;
+        object-fit: cover;  
+
+        @include mobile
+        {
+          height: 50%;
+          margin-top: 0;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .oop-img
+      {
+        height: 300px;
+        margin-top: -230px;
+        margin-bottom: 15px;
+        object-fit: cover;
+
+        @include mobile
+        {
+          height: 50%;
+          margin-top: 0;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .security-img
+      {
+        height: 300px;
+        margin-top: -300px;
+        margin-bottom: 30px;
+        object-fit: cover;
+
+        @include mobile
+        {
+          height: 50%;
+          margin-top: -40%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
       }
 
       p
       {
         font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        @include mobile
+        {
+          font-size: 10px;
+          align-items: center;
+        }
+      }
+    }
+
+    .item-title
+    {
+      overflow: hidden;
+      h3
+      {
+        font-size: 25px;
+        padding-bottom: 15px;
+
+        @include mobile
+        {
+          font-size: 15px;
+          text-align: center;
+        }
       }
     }
   }
