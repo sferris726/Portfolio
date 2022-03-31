@@ -2,7 +2,7 @@
 
 .works
 {
-  background-color: grey;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,18 +22,33 @@
     &.left
     {
       left: 100px;
-      transform: rotateY(180deg);
+      transform: scale(2,2) rotateY(180deg);
+      transition: all 1s ease;
+
+      &:hover
+      {
+        transform: scale(2.2) rotateY(180deg);
+        transition: all 1s ease;
+      }
     }
 
     &.right
     {
       right: 100px;
+      transform: scale(2,2);
+      transition: all 1s ease;
+
+      &:hover
+      {
+        transform: scale(2.2);
+        transition: all 1s ease;
+      }
     }
   }
 
   .slider
   {
-    height: 500px;
+    height: 600px;
     display: flex;
     position: absolute;
     left: 0;
@@ -55,13 +70,20 @@
 
       .item
       {
-        width: 900px;
-        height: 100%;
-        background-color: white;
+        width: 1200px;
+        height: 97%;
+        background-color: #15023a;
         border-radius: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all 1s ease;
+
+        &:hover
+        {
+          transform: scale(1.03);
+          transition: all 1s ease;
+        }
 
         @include mobile
         {

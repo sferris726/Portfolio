@@ -32,8 +32,8 @@ export default function Works()
           </div>
         </div>
       </div>
-      <img src="assets/arrow.png" alt="" className="arrow left" onClick={()=>handleClick("left")}></img>
-      <img src="assets/arrow.png" alt="" className="arrow right" onClick={()=>handleClick("right")}></img>
+      <img src="assets/arrow4.png" alt="" className="arrow left" onClick={()=>handleClick("left")}></img>
+      <img src="assets/arrow4.png" alt="" className="arrow right" onClick={()=>handleClick("right")}></img>
     </div>
   )
 }
