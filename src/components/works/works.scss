@@ -2,7 +2,8 @@
 
 .works
 {
-  background-color: white;
+  //background-color: white;
+  background-color: rgb(231, 230, 230);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,9 +72,11 @@
       .item
       {
         width: 1200px;
-        height: 97%;
-        background-color: #15023a;
+        height: 95%;
+        background-color: white;
         border-radius: 20px;
+        border: 1px solid black;
+        box-shadow: 0px 0px 20px -5px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -81,7 +84,7 @@
 
         &:hover
         {
-          transform: scale(1.03);
+          transform: scale(1.01);
           transition: all 1s ease;
         }
 
@@ -116,17 +119,18 @@
 
             h2
             {
-              font-size: 20px;
+              font-size: 30px;
+              font-weight: 400;
             }
 
             p
             {
-              font-size: 13px;
+              font-size: 17px;
             }
 
             button
             {
-              width: 150px;
+              width: 350px;
               height: 30px;
               color: whitesmoke;
               background-color: crimson;
@@ -147,6 +151,7 @@
         {
           flex: 8;
           height: 100%;
+          background-color: crimson;
           display: flex;
           align-items: center;
           justify-content: center;

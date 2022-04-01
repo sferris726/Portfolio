@@ -19,14 +19,16 @@ export default function Works()
           <div className="item">
             <div className="left">
               <div className="leftContainer">
-                <h2>Title</h2>
-                <p>Description</p>
-                <button>Code</button>
+                <h2>NodeJS Web Game</h2>
+                <p>
+                  Build a treaure hunt game with user authentication using node.js, JQuery and MySQL. Pick a box until the treasure is found; if the box is red, continue, if the box is green, you found the treasure! MySQL database stores wins and stats. 
+                </p>
+                <button>See Code</button>
               </div>
             </div>
             <div className="right">
             <div className="videoContainer">
-                <iframe width="550" height="330" src="https://www.youtube.com/embed/K6L-IBG9a1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/K6L-IBG9a1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
           </div>

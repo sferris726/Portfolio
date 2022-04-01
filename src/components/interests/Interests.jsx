@@ -20,7 +20,7 @@ export default function Interests()
           </div>
         </div>
         <div className="item">
-          <img src="assets/security.jpg" alt="" className="security-img"></img>
+          <img src="assets/security.png" alt="" className="security-img"></img>
           <div className="item-title">
             <h3>Security</h3>
           </div>
