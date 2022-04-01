@@ -5,6 +5,7 @@ export default function Interests()
 
   return (
     <div className="interests" id="interests">
+      <h1>Interests </h1>
       <div className="container">
         <div className="item">
           <img src="assets/web-dev-icon.png" alt="" className="web-img"></img>

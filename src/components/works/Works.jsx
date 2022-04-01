@@ -13,6 +13,7 @@ export default function Works()
 
   return (
     <div className="works" id="works">
+      <h1>Projects</h1>
       <div 
       className="slider" style={{ transform:`translateX(-${currentSlide * 100}vw)` }}>
         <div className="container">
@@ -28,7 +29,7 @@ export default function Works()
             </div>
             <div className="right">
             <div className="videoContainer">
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/K6L-IBG9a1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/K6L-IBG9a1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
                 </div>
             </div>
           </div>
